@@ -1,0 +1,27 @@
+.dropdown-container{
+    position: absolute;
+    box-shadow: 0 0 20px 4px #0000003d;
+    background-color: #eee;
+    display: none;
+}
+.dropdown-container .drop-down-title{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.dropdown-container .drop-down-item{
+    border-bottom: 1px solid #d8d3d3;
+    padding:5px
+}
+.dropdown-container .drop-down-item.active{
+    color:#fff;
+    background-color: #41cac0;
+}
+.dropdown-container span{
+    display: inline-block;
+}
+.create::before{
+    content: "Create: ";
+}
+.dropdown-container .dd-details{
+    font-size: 12px;
+}
